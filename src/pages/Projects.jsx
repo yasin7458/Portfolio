@@ -1,5 +1,10 @@
 import ProjectCard from "../components/ProjectCard";
 
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+
 function Projects() {
 
     const projects = [
@@ -7,7 +12,7 @@ function Projects() {
             number: "01",
             title: "E-Commerce",
             category: "JavaScript Project",
-            image: "/src/assets/project1.png",
+            image: project1,
             technologies: [
                 "HTML5",
                 "CSS3",
@@ -21,7 +26,7 @@ function Projects() {
             number: "02",
             title: "To Do List",
             category: "React Project",
-            image: "/src/assets/project2.png",
+            image: project2,
             technologies: [
                 "HTML5",
                 "CSS3",
@@ -37,7 +42,7 @@ function Projects() {
             number: "03",
             title: "District Zomato",
             category: "HTML Project",
-            image: "/src/assets/project3.png",
+            image:project3,
             technologies: [
                 "HTML5",
                 "CSS3"
@@ -50,7 +55,7 @@ function Projects() {
             number: "04",
             title: "GSAP Experience",
             category: "Frontend Project",
-            image: "/src/assets/project4.png",
+            image: project4,
             technologies: [
                 "HTML5",
                 "CSS3",
