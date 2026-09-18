@@ -1135,15 +1135,10 @@ body {
 }
 
 .project-image {
-
   height: 250px;
-
   position: relative;
-
   overflow: hidden;
-
   background: #f8f8f8;
-
 }
 
 .project-image img {
@@ -1152,16 +1147,18 @@ body {
 
   height: 100%;
 
-  object-fit: contain;
+  object-fit: cover;
 
   transition: 0.5s ease;
+
+  filter: brightness(70%);
 
 }
 
 .project-card:hover .project-image img {
 
   transform: scale(1.06);
-
+  filter: brightness(100%);
 }
 
 .project-overlay {
